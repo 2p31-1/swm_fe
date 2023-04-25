@@ -35,13 +35,11 @@ body {
 
 .home {
     width: 100%;
-    height: 640px;
     margin-top: 40px;
 }
 
 .home-main {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +47,5 @@ body {
 }
 
 .home-main img {
-    width: 90%;
-    height: 100%;
+    width: 100%;
 }

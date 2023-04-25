@@ -1,11 +1,15 @@
 .main {
-  width: 50%;
   height: 80%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   overflow-y: auto;
+  margin:auto;
+  margin-top:70px;
+}
+
+@media(min-width: 1000px) {
+  .main {
+    width: 50%;
+    max-width: 1000px;
+  }
 }
 
 .feed {
