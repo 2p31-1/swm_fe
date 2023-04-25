@@ -1,0 +1,50 @@
+@import "header.css";
+@import "footer.css";
+@import "notice.css";
+
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.01s linear;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--white);
+}
+
+:root {
+    --blue: rgb(30, 183, 230);
+    --white: white;
+    --gray: rgb(54, 54, 54);
+    --black: black;
+}
+
+.home {
+    width: 100%;
+    height: 640px;
+    margin-top: 40px;
+}
+
+.home-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-main img {
+    width: 90%;
+    height: 100%;
+}
