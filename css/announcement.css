@@ -1,0 +1,79 @@
+.announcement {
+  padding: 100px 0;
+}
+
+.page-title {
+  margin: 50px 0;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #CEE3F6;
+}
+
+.page-search {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-box {
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-wrap {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  border: 1px solid black;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+}
+
+.page-table {
+  font-size: 13px;
+  width: 100%;
+  border-top: 1px solid #BDBDBD;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.table-link {
+  vertical-align: middle;
+}
+
+.table-num {
+  width: 120px;
+  text-align: center;
+}
+
+.table-date {
+  width: 180px;
+}
+
+.page-table th, .page-table td {
+  padding: 15px 0;
+}
+
+.page-table tbody td {
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+}
+
+.btn {
+  padding: 0 30px;
+  background: #848484;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+}
