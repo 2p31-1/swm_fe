@@ -1,6 +1,8 @@
 @import "header.css";
 @import "footer.css";
 @import "notice.css";
+@import "signup.css";
+
 
 * {
     font-family: "Noto Sans KR", sans-serif;

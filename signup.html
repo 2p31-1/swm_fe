@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bob Pool</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <script>
+      function getloginkeepCheckboxValue(event) {
+        let login_result = "";
+        if (event.target.checked) {
+          login_result = event.target.value;
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <section class="header">
+        <header class="navbar">
+            <div class="navbar_logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="" /></a>
+            </div>
+    
+            <ul class="navbar_menu">
+                <a href="notice.html"><li>공지사항</li></a>
+                <a href="bobpool.html"><li>밥풀 게시판</li></a>
+            </ul>
+    
+            <div class="navbar_pcicon">
+                <a href="signup.html"><button>회원가입</button></a>
+            </div>
+        </header>
+    </section>
+
+    <div class="join">
+        <form class="join-form">
+            <div class="join-subject">회원가입</div>
+            <div class="join-input">
+                <label for="name">&nbsp;&nbsp;&nbsp;&nbsp;이름</label>
+                <input
+                type="text"
+                id="name"
+                name="userName"
+                placeholder="이름을 입력해주세요"
+                />
+            </div>
+
+            <div class="join-input">
+                <label for="nickname">닉네임</label>
+                <input
+                    type="text"
+                    id="nickname"
+                    name="nickName"
+                    placeholder="닉네임을 입력해주세요"
+                />
+            </div>
+
+            <div class="join-input">
+                <label for="email">이메일</label>
+                <input
+                type="email"
+                id="email"
+                name="userEmail"
+                placeholder="이메일을 입력해주세요"
+                />
+            </div>
+            <button class="join-btn">가입하기</button>
+        </form>
+    </div>
+  </body>
+  <script src="js/script.js" defer></script>
+</html>

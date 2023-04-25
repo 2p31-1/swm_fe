@@ -1,0 +1,66 @@
+.join {
+    width: 100%;
+    height: 100%;
+    margin-top: 160px;
+    color: var(--white);
+}
+
+.join-form {
+    height: 100%;
+    width: 64%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    background-color: var(--blue);
+    padding: 32px;
+}
+
+.join-subject {
+    color: white;
+    position: relative;
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+
+.join-input {
+    padding-top: 24px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.join-form label {
+    font-size: 20px;
+    margin-right: 120px;
+}
+
+.join-form input,
+.join-form select {
+    width: 300px;
+    height: 24px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    font-size: 16px;
+}
+  
+.join-form span {
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.join-btn {
+    position: relative;
+    width: 92px;
+    height: 36px;
+    background-color: var(--white);
+    margin: 12px;
+    margin-top: 32px;
+    font-size: 20px;
+    color: var(--blue);
+    cursor: pointer;
+}
