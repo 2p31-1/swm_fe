@@ -38,10 +38,10 @@
     max-height: 0;
     padding-left: 4px;
     overflow: hidden;
-    transition: max-height 0s;
+    transition: max-height 0.9s;
 }
 .notice-content.expanded{
     max-height: 500px;
-    transition: max-height 0.3s;
+    transition: max-height 0.9s;
 }
   
